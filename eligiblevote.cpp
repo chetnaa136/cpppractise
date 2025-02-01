@@ -5,7 +5,10 @@ int main(){
     cout<<"enter your age";
     cin>>age;
     if(age>=18){
-        cout<<"u are eligible";
+        cout<<"u are eligible";}
+        else{
+            cout<<"not eligible";
+        }
         return 0;
-    }
+    
 }
