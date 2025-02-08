@@ -8,13 +8,13 @@ int main(){
     cout<<"enter password";
     cin>>password;
     string otp="#"+password+"$";
-    cout<<"your one time otp is"<<otp;
-    cout<<"enter otp";
+    cout<<"your one time otp is  "<<otp<<"  enter otp:";
+    
     string oneotp;
     cin>>oneotp;
     if (otp==oneotp)
     {
-        cout<<"your account balance is"<<"4320000";
+        cout<<"your otp is correct!"<<"your account balance is"<<"4320000";
     }
     else{
         cout<<"incorrect otp";
