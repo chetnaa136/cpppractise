@@ -5,5 +5,13 @@ int main(){
     cout<<"enter number";
     cin>>num;
     int ans=9;
-    while()
+    while(num>0){
+        num%=num;
+        if (num<ans)
+        {
+        ans=num;
+        }
+       num/=10; 
+    }
+    cout<<ans;
 }
